@@ -1,0 +1,147 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #A2A2A2;
+  background-color: #f5f5ed;
+  text-align: center;
+  margin-top: 0;
+}
+
+/*========================================================
+          Book Navigation Section
+========================================================*/
+header {
+  position: relative;
+  margin: 0 auto;
+  height: (100% - 100px);
+  background-color: #222222;
+  height: 80px;
+}
+
+.page-header {
+  margin: 0;
+  border-bottom: none;
+}
+
+/*Style logo color*/
+.logo {
+  margin-top: 20px;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #ff799e;
+  font-family: 'Lato', sans-serif;
+}
+.logo span{
+  color: #aaaaaa;
+}
+
+/*styling search section*/
+header .search input {
+    border: none;
+    background: #383838;
+    color: white;
+    padding-left: 20px;
+    outline: none;
+    margin-top: 20px;
+    height: 40px;
+}
+
+/*Search button*/
+button {
+  background-color: transparent;
+  border: none;
+}
+/*Search icon*/
+.fa-search {
+  color: white;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+}
+.fa-search:hover {
+  color: #ff799e;
+}
+
+/*========================================================
+          Library Section
+========================================================*/
+/*background wrap */
+.library-wrap {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 20px;
+  min-height: 650px;
+  background: white;
+  box-shadow: 0px 1px 1px 1px rgba(210, 214, 213, 0.5);
+
+}
+
+
+.player {
+   height: 190px;
+   width: 430px;
+   background-color: #1E2125;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+ }
+
+/*List of songs*/
+.player ul {
+  list-style: none;
+}
+.player ul li {
+  /*display: inline-block;*/
+  text-align: left;
+}
+
+/*image*/
+.cover {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+.cover img {
+    height: 190px;
+    width: 190px;
+
+}
+
+/*Information about the music shown*/
+.info h1 {
+    margin-top: 15px;
+    margin-left: 180px;
+    line-height: 0;
+    font-size: 13pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.info h4 {
+    margin-left: 180px;
+    line-height: 20px;
+    color: #636367;
+    font-size: 8pt;
+    font-weight: 400;
+ }
+.info h2 {
+  margin-left: 180px;
+  font-size: 13pt;
+  font-weight: 300;
+  color: white;
+}
